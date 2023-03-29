@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Card</title>
+    <style>
+        body
+        {
+            background-color: #dedede;
+        }
+        .Container
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;           
+        }
+        .Card
+        {
+            width: 230px;
+            height: 520px;
+            background-color: #ffffff;
+            position: relative; 
+            border-radius: 6px;        
+        }
+        img
+        {
+            width: 230px;
+            height: 260px;
+        }
+        .content
+        {
+            padding: 10px 7.5px 10px 21px;
+            font-size: 13px;
+        }
+        button
+        {
+            padding: 7px 12px;
+            background-color: rgb(246, 114, 57);
+            border: none;
+            border-radius: 3px;
+            color: #ffffff;
+            position: absolute;
+            top: 89.6%;
+            left: 8.5%;           
+        }
+        button:hover
+        {
+            background-color: #ffffff;
+            color: rgb(246, 114, 57);
+            border: 1.3px solid rgb(246, 114, 57);
+        }
+        .imdb
+        {
+            padding: 1px 4px 1px 1px;
+            background-color: rgb(240, 117, 65);
+            border: none;
+            border-radius: 0px 0px 0px 0;
+            color: #ffffff;
+            position: absolute; 
+            top: 5px;
+            right: 5px;
+            font-size: 15.3px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <div class="Card">
+            <div class="imdb">&#9733 8.6</div>
+            <img src="../Movie_card/image/interstellar.jpg" alt="Sorry">
+            <div class="content">
+            <h3>INTERSTELLAR</h3>
+            <p>Yıldızlararası, Christopher Nolan tarafından yönetilen epik bilimkurgu türündeki, 2014 yapımı ABD filmi. Başrollerinde Matthew McConaughey, Anne Hathaway, Jessica Chastain ve Michael Caine yer almaktadır.</p>
+            </div>
+            <button>Details</button>
+        </div>
+        <div class="Card">
+            <div class="imdb">&#9733 7.1</div>
+            <img src="../Movie_card/image/pele.jpeg" alt="Sorry">
+            <div class="content">
+            <h3>PELE</h3>
+            <p>Pelé: Bir Efsanenin Doğuşu Brezilyalı futbolcu Pelé'nin hayatı ve 1958 FIFA Dünya Kupasını kazanmak için Brezilya millî futbol takımı ile yaptığı yolculuğa dair bir Amerikan biyografik filmidir. </p>
+            </div>
+            <button>Details</button>
+        </div>
+        <div   class="Card">
+            <div class="imdb">&#9733 8.5</div>
+            <img src="../Movie_card/image/whiplash.webp" alt="Sorry">
+            <div class="content">
+            <h3>WHİPLASH</h3>
+            <p>Whiplash, 2014 çıkışlı Amerikan drama filmi. Damien Chazelle tarafından Princeton High School'nin stüdyo grubundaki anılarından yola çıkılarak yazılıp yönetilmiştir.</p>
+            </div>
+            <button>Details</button>
+        </div>
+    </div>    
+</body>
+</html>
