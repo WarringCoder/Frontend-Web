@@ -311,6 +311,7 @@ i
 .Content-Container-3
 {
     margin-top: 70px;
+    margin-bottom: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -358,6 +359,11 @@ i
     font-size: 25px;
     color: rgb(255, 255, 255);
     opacity: 0;
+}
+.MAP
+{
+    width: 100%;
+    height: 80vh;
 }
 
 
