@@ -386,7 +386,7 @@ i
     display: flex;
     flex-direction: column;
     height: 623px;
-    width: 300px;
+    width: 290px;
     margin-bottom: 30px;
     background-color: #e0e0e0;
     position: relative;
@@ -465,7 +465,7 @@ i
 .Buy-h1
 {
     border-bottom: 2px solid rgba(97, 211, 147, 0.9);
-    font-size: 29px;
+    font-size: 25px;
 }
 .Buyy
 {
